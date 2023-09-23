@@ -50,3 +50,5 @@ for filename in image_files:
     # Save the processed image to the output directory
     output_path = os.path.join(output_dir, filename)
     cv2.imwrite(output_path, processed_image)
+
+# Test Comment
